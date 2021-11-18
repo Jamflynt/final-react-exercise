@@ -35,10 +35,18 @@ function App() {
       setIndex(randomIndex);
   }
 
+  // 7d 
+  // 11/18 Please dont copy >_>
   function newNum(){
-    const nextNum = num + 1;
-    setNum(nextNum);
-}
+    let nextNum = num + 1;
+    if(num < mcuCharacters.length -1){
+      setNum(nextNum);
+      console.log(nextNum);
+    } else {
+      setNum(nextNum = 0);
+      console.log(nextNum);
+    }
+  }
 
   return (
     <div>

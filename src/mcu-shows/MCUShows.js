@@ -1,7 +1,7 @@
 // 1a
 import './MCUShows.css';
 import '../App'
-
+import {useEffect} from 'react';
 
 // 1b
 function MCUShows({dates, index2, num2}){
@@ -20,7 +20,7 @@ function MCUShows({dates, index2, num2}){
             <p>Hawkeye: {dates.hawkeye}</p>
             {/* 6e and 6f*/}
             <button onClick={index2}>Random MCU Character</button>
-            {/* 7c */}
+            {/* 7c and 7d */}
             <button onClick={num2}>Next MCU Character</button>
         </div>
     )
