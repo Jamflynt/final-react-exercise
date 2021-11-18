@@ -36,7 +36,7 @@ function App() {
   }
 
   // 7d 
-  // 11/18 Please dont copy >_>
+  // 11/18 Please dont copy >_> -JF
   function newNum(){
     let nextNum = num + 1;
     if(num < mcuCharacters.length -1){
