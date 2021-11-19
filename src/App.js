@@ -49,7 +49,7 @@ function App() {
   }
 
   // 8a
-  const effect = useEffect(() => {
+  useEffect(() => {
     alert("The Next MCU Character has been displayed");
     // Dependency Array -> watches use state value for change
 }, [num]);
