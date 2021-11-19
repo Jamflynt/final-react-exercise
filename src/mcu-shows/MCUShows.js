@@ -23,7 +23,8 @@ function MCUShows({dates, index2, num2}){
             {/* 7c and 7d */}
             <button onClick={num2}>Next MCU Character</button>
         </div>
-    )
+    )    
+
 }
 
 // 1d

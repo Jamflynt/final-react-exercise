@@ -1,5 +1,5 @@
 // 6a
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 // 2a
 import MCUShows from "./mcu-shows/MCUShows";
@@ -47,6 +47,12 @@ function App() {
       console.log(nextNum);
     }
   }
+
+  // 8a
+  const effect = useEffect(() => {
+    alert("The Next MCU Character has been displayed");
+    // Dependency Array -> watches use state value for change
+}, [num]);
 
   return (
     <div>
