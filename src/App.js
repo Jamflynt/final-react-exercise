@@ -49,6 +49,7 @@ function App() {
   }
 
   // 8a
+  // useEffect loads when ever any data changes, this includes page loading, UNLESS there is a dependency array
   useEffect(() => {
     alert("The Next MCU Character has been displayed");
     // Dependency Array -> watches use state value for change
