@@ -43,6 +43,7 @@ function App() {
       console.log(nextNum);
     } else {
       setNum(nextNum = 0);
+      // look into why this works 
       console.log(nextNum);
     }
   }
